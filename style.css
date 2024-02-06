@@ -1,0 +1,638 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.navbar-brand .logo{
+    width: 70px;
+}
+
+
+.overLay{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navbar{
+    background-color: #fff1e8;
+    padding: 15px 15px;
+}
+
+.nav-item a{
+    text-transform: capitalize;
+    color: black;
+}
+
+.nav-link:hover{
+    color: #f77e23;
+}
+
+.dropdown-menu{
+    background-color: #fff1e8;
+    border-color: transparent;
+}
+
+.btn-outline-light{
+    background-color: #fff1e8;
+    border-color: white;
+    border-radius: 18px;
+    padding: 6px 23px;
+    text-transform: capitalize;
+}
+
+.btn-outline-warning{
+    background-color: white;
+    border-color: #fff1e8;
+    border-radius: 18px;
+    padding: 6px 23px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.btn-outline-light:hover{
+    background-color: white;
+    color: white;
+}
+
+.btn-outline-warning:hover{
+    background-color: #fff1e8;
+    border-color: #f77e23;
+    color: white;
+}
+
+.slide,
+.experts,
+.contactDetails,
+.publications{
+    background-color: #fff1e8;
+}
+
+.bannerBox{
+    padding: 0px 7% 70px;
+}
+
+.feature,
+.categories,
+.experts,
+.courses,
+.examination,
+.contactDetails,
+.reviews,
+.feturedCompetition,
+.footer{
+    padding: 80px 7%;
+}
+
+.categories .categorImg{
+    width: 100%;
+}
+
+.bannerImg
+{
+    width: 100%;
+}
+
+.bannerImg01{
+    width: 100%;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:rgb(36, 36, 36);
+    margin-bottom: 30px;
+}
+
+.h2-title{
+    font-size: 48px;
+    font-weight: bold;
+    color:rgb(36, 36, 36)
+}
+
+.h3-title{
+    font-size: 32px;
+    font-weight: bold;
+    color:rgb(36, 36, 36)
+}
+
+
+.desc{
+    width: 90%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f77e23;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    width: 8%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #f77e23;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+}
+.icon-angle{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #f77e23;
+    border-radius: 50%;
+    padding: 8px;;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #f77e23;
+    border-radius: 50%;
+    padding: 8px;;
+    font-size: 1px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-outline-primary{
+    padding: 12px 28px;
+    border-radius: 30px;
+    color: white;
+    background-color: #f77e23;
+    border-color: #f77e23;
+}
+
+.btn-outline-primary:hover{
+    background-color: white;
+    color: black;
+    border-color: #f77e23;
+}
+.border-ra8{
+    border-radius: 8px;
+}
+
+.feature .card{
+    padding: 30px 20px;
+    border-radius: 32px;
+    border: none;
+    background-color: #fff7f1ce;
+}
+
+.fa-hands,
+.fa-user-group,
+.fa-comments{
+    color: #f77e23;
+}
+
+.categories .categoryImg{
+    position: relative;
+    border-radius: 20px;
+    height: 530px;
+    object-fit: cover;
+}
+.categories .carousel-item{
+    position: relative;
+}
+
+.categories .carousel-item::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.categories .carousel-caption,
+.examination .carousel-caption,
+.feturedCompetition .carousel-caption {
+    position: absolute;
+    right: auto;
+    bottom: 0px;
+    left: 5%;
+    padding-top: 1.25rem;
+    color: white;
+    text-align: left;
+    z-index: 2;
+}
+
+.sortby{
+    color: white;
+}
+
+.seeAll{
+    color: #f77e23;
+    text-decoration: none;
+}
+
+.list-group-flush{
+    display: flex;
+
+}
+.examination .categoryImg{
+    position: relative;
+    border-radius: 20px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* effect */
+.underlined {
+    position: relative;
+    margin-right: 1rem;
+    color: #f77e23;
+  }
+.underlined:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 15px;
+    width: 100%;
+    border-top: solid 4px #f77e23;
+    border-color: #f77e23 ;
+    border-radius: 30%;
+    rotate: -5deg;
+  }
+
+.OnlineExamination .underlined:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 15px;
+    width: 100%;
+    border-top: solid 4px #f77e23;
+    border-color: #f77e23 ;
+    border-radius: 50%;
+    rotate: -2deg;
+  }
+/* effect */
+
+.OnlineExamination{
+    background-color: #fff1e8;
+
+}
+
+.OnlineExamination .expertContent{
+    padding: 5px 79px;
+}
+
+/* testimonial  */
+
+.reviewsItem1{
+    position: relative;
+}
+
+.reviewsItem1 .swiper-button-next, 
+.reviewsItem1 .swiper-button-prev {
+    position: absolute;
+    top: 100%;
+    bottom: 0px;;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewsItem1 .swiper-button-next{
+    left: 100px;
+}
+
+.profile{
+    padding: 15px 0px;
+}
+.profile img{
+    width: 60px;
+    border-radius: 50%;
+}
+.profile h4, 
+    .profile p{ 
+    margin: 0;
+}
+
+.profile p{ 
+    color: #f77e23;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media screen and (max-width:600px) {
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+}
+
+.competitionImg{
+    width: 480px;
+    height: 330px;
+    position: relative;
+    border-radius: 20px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.competition .carousel-caption,
+.mySwiper1 .carousel-caption{
+    position: absolute;
+    right: auto;
+    bottom: 0px;
+    left: 5%;
+    padding-top: 1.25rem;
+    color: white;
+    text-align: left;
+    z-index: 2;
+    width: 200px;
+}
+
+.publications .bannerImg01{
+    margin: 23px 0;
+    width: 100%;
+}
+
+.publications{
+    gap: 25px;
+}
+
+.publications-content{
+    margin: 65px 45px;
+    width: 1400px;
+    padding: 0 35px 0 55px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer .logo{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer .desc{
+    width: 70%;
+}
+
+.socialIcon i{
+    font-size: 1.4rem;
+}
+
+.footer h6{
+    margin: 0px;
+}
+
+.footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+.footer a:hover{
+    color: #f77e23;
+}
+
+
+.footerForm form{
+    position: relative;
+    width: 600px;
+}
+
+.footerForm form input{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #f77e23;
+    border-radius: 30px;;
+    padding: 18px 40px;
+    color: #f77e23;
+}
+
+.footerForm form button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 18px 40px;
+    border-radius: 30px;
+    background: #f77e23;
+    color: white;
+    border: none;
+    font-weight: normal;
+    text-transform: capitalize;
+} 
+
+.categoryImg,
+.competitionImg{
+    opacity: 0.4;
+}
+
+.categoryImg:hover,
+.competitionImg:hover{
+    opacity: 1;
+    z-index: 10;
+}
+
+.trusted-customer{
+    padding: 80px 5%;
+    /* padding: 80px 70px; */
+    overflow: hidden;
+}
+
+.pic-logo{
+    aspect-ratio: 20/9;
+    padding: 30px;
+    width: 100%;
+}
+
+
+@media screen  and (max-width:600px){
+    .footerForm form{
+        position: relative;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    .categories .categoryImg{
+        position: relative;
+        border-radius: 20px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .examination .categoryImg{
+        position: relative;
+        border-radius: 20px;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .OnlineExamination {
+        padding: 1px 10PX;
+    }
+
+    .OnlineExamination .examContent,
+    .experts .examContent{
+        padding: 5px 10px;
+    }
+
+    .exam img,
+    .publications-item{
+        width: 400px;
+    }
+
+    .competition .competitionImg{
+        height: 330px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    
+    .title{
+        font-size: 35px;
+    }
+
+    .h2-title{
+        font-size: 32px;
+    }
+    
+    .examination .categoryImg{
+        height: 360px;
+    }
+
+    .contactDetailsContainer .contactImg{
+        width: 80px;
+    }
+
+    .contactImg img{
+        width: 100%;
+    }
+
+    .OnlineExamination{
+        padding: 5px 0px;
+    }
+
+    .examContent,
+    .experts .examContent{
+        padding: 5px 10px;
+    }
+
+    .OnlineExamination .title{
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title{
+        font-size: 40px;
+    }
+
+    .h2-title{
+        font-size: 36px;
+    }
+
+    .btn-outline-primary{
+        font-size: 13px;
+        padding: 9px 24px;
+        border-radius: 30px;
+        color: white;
+        background-color: #f77e23;
+        border-color: #f77e23;
+    }
+
+    .examination .categoryImg{
+        height: 400px;
+    }
+
+    .competition .competitionImg{
+        height: 390px;
+    }
+
+    .OnlineExamination .expertContent{
+        padding: 5px 29px;
+    }
+
+    .OnlineExamination .title{
+        line-height: 46px;
+    }
+
+    /* .publications .bannerImg01{
+        margin: 23px 0;
+    } */
+    
+    .publications{
+        padding: 25px 0;
+    }
+
+    .publications .bannerImg{
+        margin: 0;
+        width: 100%;
+    }
+    
+    .publications-content{
+        margin: 0;
+        width: 100%;
+        padding: 0 2px 0 20px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .reviewsContainer .h2-title{
+        font-size: 45px;
+    }
+
+    .exam img{
+        width: 640px;
+    }
+
+    .publications{
+        padding: 25px 0;
+    }
+
+    .publications .bannerImg{
+        margin: 0;
+        width: 100%;
+    }
+    
+    .publications-content{
+        margin: 0;
+        width: 100%;
+        padding: 0 2px 0 20px;
+    }
+}
